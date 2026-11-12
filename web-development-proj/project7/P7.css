@@ -1,0 +1,58 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightgrey;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+h1 {
+    font-size: 32px;
+    color: blue;
+}
+
+h2 {
+    font-size: 24px;
+    color: black;
+}
+
+h3 {
+    font-size: 20px;
+    color: black;
+}
+
+p {
+    font-size: 16px;
+    color: grey;
+    line-height: 1.5;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+.card {
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+}
+
+button {
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border: none;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+

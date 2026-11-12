@@ -1,0 +1,147 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f4f1ea;
+  color: #111;
+  padding: 20px;
+}
+
+.newspaper-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 25px 35px;
+  border: 1px solid #d3d3d3;
+}
+
+.masthead {
+  text-align: center;
+  border-bottom: 4px double #111;
+  padding-bottom: 15px;
+  margin-bottom: 20px;
+}
+
+.date-line {
+  border-bottom: 1px solid #111;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+.masthead h1 {
+  font-weight: 900;
+}
+
+.sub-masthead {
+  font-style: italic;
+  font-size: 0.95rem;
+  margin-top: 5px;
+}
+.newspaper-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; 
+  gap: 25px;
+  border-bottom: 2px solid #111;
+  padding-bottom: 20px;
+}
+.col-left {
+  border-right: 1px solid #ccc;
+  padding-right: 20px;
+}
+
+.col-center {
+  border-right: 1px solid #ccc;
+  padding-right: 20px;
+}
+
+.story h2 {
+  font-size: 1.3rem;
+  line-height: 1.25;
+  margin-bottom: 8px;
+}
+
+.main-headline h2 {
+  font-size: 2.2rem;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.byline {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  color: #555;
+  margin-bottom: 12px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.lead-paragraph {
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.story p {
+  margin-bottom: 12px;
+  text-align: justify;
+}
+.text-multi-col {
+  column-count: 2;
+  column-gap: 20px;
+}
+
+.featured-image {
+  margin: 15px 0;
+}
+
+.img-placeholder {
+  width: 100%;
+  height: 220px;
+  background-color: #e0e0e0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: #666;
+  border: 1px solid #ccc;
+}
+
+figcaption {
+  font-size: 0.8rem;
+  font-style: italic;
+  margin-top: 5px;
+  color: #444;
+}
+.divider {
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 20px 0;
+}
+
+.opinion-box {
+  background-color: #f9f8f6;
+  padding: 15px;
+  border: 1px solid #111;
+}
+
+.opinion-box h3 {
+  font-size: 0.85rem;
+  letter-spacing: 1px;
+  margin-bottom: 5px;
+}
+
+.opinion-box h4 {
+  font-size: 1.1rem;
+  margin-bottom: 8px;
+}
+.footer {
+  text-align: center;
+  font-size: 0.8rem;
+  padding-top: 15px;
+  font-family: sans-serif;
+  color: #666;
+}
